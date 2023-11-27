@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/scripit.js"></script>
+</head>
+
+<body>
+    <div class="container-principal">
+        <form class="container">
+            <h1>Calculadora - IMC</h1>
+            <div class="inputs">
+                <h2>Altura (m)</h2>
+                <input id="altura" type="number" required placeholder="Informe sua altura" /> 
+            </div>
+            <div class="inputs">
+                <h2>Peso (kg)</h2>
+                <input id="peso" type="number" required placeholder="Informe seu peso"/>
+            </div>
+            <button onclick="calcular()">Calcular</button><br>
+            <button onclick="limpar()">Limpar</button>
+            <textarea name="" id="text_area" rows="8"></textarea>
+        </form>
+    </div>
+</body>
+
+</html>
