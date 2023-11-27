@@ -12,7 +12,7 @@ elementoPeso.addEventListener("keyup", function () {
 })
 
 function calcular() {
-  
+
     let imc = (peso / (altura * altura)).toFixed(2);
     let text = ""
 
