@@ -82,43 +82,39 @@ button:hover {
 
 @media(max-width: 600px) {
     h2 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     input {
         height: 7px;
-        width: 70px;
-        padding: 8px;
-}
+        width: 80px;
+        padding: 10px;
+    }
 
-.container-principal{
-    display: grid;
-    grid-template-columns: auto;
-}
+    .container-principal {
+        display: grid;
+        grid-template-columns: auto;
+    }
 
-.container{
-    margin: 3rem;
-    padding: 35px;
-    width: 10em;
-}
+    .container {
+        margin: 3rem;
+        padding: 30px;
+        width: 22em;
+        height: 100em;
+    }
 
-button{
-    width: 70px;
-    font-size: 10px;
-}
+    button {
+        width: 80px;
+        font-size: 10px;
+    }
 
-h1{
-    font-size: 30px;
-}
+    h1 {
+        font-size: 30px;
+    }
 
-textarea {
-    width: 70%;
-    margin-top: 2em;
-    text-align: center;
-    color: #111;
-    font-size: 12px;
-    font-weight: bolder;
-    border: none;
-}
+    textarea {
+        width: 70%;
+        font-size: 12px;
+    }
 
 }
