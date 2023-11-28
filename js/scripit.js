@@ -17,17 +17,17 @@ function calcular() {
     let text = ""
 
     if (imc < 18.5) {
-        text = " Cuidado! Você está abaixo do peso!😨"
+        text = " Cuidado! Você está abaixo do peso!😨 Tenha cuidado com sua saúde!🙂"
     } else if (imc >= 18.5 && imc <= 25) {
         text = "Você está no peso ideal!😃"
     } else if (imc > 25 && imc <= 30) {
-        text = " Cuidado! Você está com sobrepeso!😟"
+        text = " Cuidado! Você está com sobrepeso!😟 Tenha cuidado com sua saúde!🙂"
     } else if (imc < 30 && imc <= 35) {
-        text = " Cuidado! Você está com obsidade moderada!😟"
+        text = " Cuidado! Você está com obsidade moderada!😟 Tenha cuidado com sua saúde!🙂"
     } else if (imc > 35 && imc <= 40) {
-        text = " Cuidado! Você está com obsidade severa!😨"
+        text = " Cuidado! Você está com obsidade severa!😨 Tenha cuidado com sua saúde!🙂"
     } else if (imc > 40) {
-        text = " Cuidado! Você está com obsidade morbida! 😨"
+        text = " Cuidado! Você está com obsidade morbida!😨 Tenha cuidado com sua saúde!🙂"
     }
     document.getElementById("text_area").innerText = text
 
